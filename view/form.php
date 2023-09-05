@@ -9,10 +9,10 @@
       <meta content="" name="keywords">
     
       <!-- Favicons -->
-      <link href="assets/img/favicon.png" rel="icon">
-      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <link href="../assets/img/favicon.png" rel="icon">
+      <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
    
-      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="../assets/css/style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
    </head>
    <body>
@@ -126,6 +126,6 @@
             </form>
          </div>
       </div>
-      <script src="assets/js/script.js"></script>
+      <script src="../assets/js/script.js"></script>
    </body>
 </html>
