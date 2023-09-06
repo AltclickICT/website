@@ -71,22 +71,112 @@
     </div>
   </header>
   <!-- End Header -->
+<!-- First Section Starts Here........ -->
+<center id="testimonials" class="first-section">
+      <div class="container" data-aos="fade-up">
 
-  <section id="hero-animated" class="hero-animated d-flex align-items-center">
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
-      <h2>We are <span>Altclick</span></h2>
-      <p>
-        We are Altclick ICT World Limited <br>
-        ...Making the Difference
-      </p>
-      <div class="d-flex">
-        <a href="form.html" class="btn-get-started scrollto">Get Started</a>
+        <div class="testimonials-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+              <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+                <h2>We are <span>Altclick</span></h2>
+                <p>
+                We are Altclick ICT World Limited <br>
+                ...Making the Difference
+                </p>                                                      
+                <div   class="d-flex">
+                <a href="form.html" class="btn-get-started scrollto">Get Started</a>
         <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-      </div>
-    </div>
-  </section>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+              <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+                <img src="assets/img/hero-carousel/banner8.jpeg" class="img-fluid animated">
+                <h2>We are <span>Altclick</span></h2>
+                <p>
+                We are Altclick ICT World Limited <br>
+                ...Making the Difference
+                </p>                                                      
+                <div   class="d-flex">
+                <a href="form.html" class="btn-get-started scrollto">Get Started</a>
+        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+              <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+                <h2>We are <span>Altclick</span></h2>
+                <p>
+                We are Altclick ICT World Limited <br>
+                ...Making the Difference
+                </p>                                                      
+                <div   class="d-flex">
+                <a href="form.html" class="btn-get-started scrollto">Get Started</a>
+        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+              <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+                <h2>We are <span>Altclick</span></h2>
+                <p>
+                We are Altclick ICT World Limited <br>
+                ...Making the Difference
+                </p>                                                      
+                <div   class="d-flex">
+                <a href="form.html" class="btn-get-started scrollto">Get Started</a>
+        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+              <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+                <h2>We are <span>Altclick</span></h2>
+                <p>
+                We are Altclick ICT World Limited <br>
+                ...Making the Difference
+                </p>                                                      
+                <div   class="d-flex">
+                <a href="form.html" class="btn-get-started scrollto">Get Started</a>
+        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+</center>
+<!-- End Here... -->
   <main id="main">
 
     <!-- ======= Featured courses Section ======= -->
@@ -143,7 +233,9 @@
 
         <div class="section-header">
           <h2>About Us</h2>
-          <p> We do Software Development, Installation, And Maintenance, Hardware Development Network Installation Computer Information And Internet courses, Communication Technology (ICT) courses</p>
+          <p>AltClick ICT World is a software development company based in Abuja, Nigeria. We provide a range of software solutions and services such as web and mobile application development, software testing, IT consulting, product design and development, hardware systems installation, and software development training.</p>
+          <!-- <p> We do Software Development, Installation, And Maintenance, Hardware Development Network Installation Computer Information And Internet courses, Communication Technology (ICT) courses</p> -->
+        <button class="btn btn-primary">Read More..</button>
         </div>
 
         <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
@@ -548,13 +640,13 @@
 
         <div class="section-header">
           <h2 style="color: white">Contact Us</h2>
-          <p style="color: white">SUITE S016, APPLE COURT PLAZA, AREA A, NYANYA ABUJA</p>
+          <p style="color: white">SUITE S9, AMADA PLAZA, JIKWOYI, ABUJA</p>
         </div>
 
       </div>
 
       <div class="map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Area A, NYANYA ABUJA&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://capcuttemplate.org/">Capcut Templates</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=AMADA PLAZA, JIKWOYI, ABUJA&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://capcuttemplate.org/">Capcut Templates</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
       </div>
       <!-- End Google Maps -->
 
@@ -572,7 +664,7 @@
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4 style="color: white">Location:</h4>
-                  <p style="color: white">SUITE S016, APPLE COURT PLAZA, AREA A, NYANYA ABUJA</p>
+                  <p style="color: white">SUITE S9, AMADA PLAZA, JIKWOYI, ABUJA</p>
                 </div>
               </div>
               <!-- End Info Item -->
@@ -658,6 +750,7 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
+    <center></center>
 
     <div class="footer-content">
       <div class="container">
@@ -665,10 +758,10 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Altclick</h3>
+              <h3>Altclick <span>ICT World</span></h3>
+              
               <p>
-                SUITE S016, APPLE COURT PLAZA, AREA A,  <br>
-                NYANYA ABUJA, NIGERIA<br><br>
+                SUITE S9, AMADA PLAZA, JIKWOYI, ABUJA, NIGERIA<br><br>
                 <strong>Phone:</strong> +234 903 7437 507<br>
                 <strong>Email:</strong> altclickict@gmail.com<br>
               </p>
@@ -689,11 +782,15 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="table.html">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="table.html">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="table.html">Training and Mentoring Techers</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="table.html">Website Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="table.html">Mobile Apps Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="table.html">Data Analysis</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="table.html">Cyber-Security</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="table.html">Product Management</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="table.html">Business Training</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="table.html">Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="table.html">System Maintenance and Repairs</a></li>
             </ul>
           </div>
 
@@ -715,11 +812,11 @@
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>Altclick</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Altclick ICT</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
              <p>
-                &copy; <script>document.write(new Date().getFullYear())</script> Created By <i class="ti-heart text-success"></i><span class="text-success" title="">Chrēstotēs</span></a> 
+                &copy; <script>document.write(new Date().getFullYear())</script> || <i class="ti-heart text-success"></i><span class="text-success" title="">Software Developers</span></a> 
             </p>
           </div>
         </div>
@@ -733,6 +830,7 @@
 
       </div>
     </div>
+    </center>
 
   </footer>
   <!-- End Footer -->
