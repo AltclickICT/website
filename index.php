@@ -71,8 +71,20 @@
     </div>
   </header>
   <!-- End Header -->
+  <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+                <h2>We are <span>Altclick</span></h2>
+                <p>
+                We are Altclick ICT World Limited <br>
+                ...Making the Difference
+                </p>                                                      
+                <div   class="d-flex">
+                <a href="form.html" class="btn-get-started scrollto">Get Started</a>
+        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              </div>
+</div>            
 <!-- First Section Starts Here........ -->
-<center id="testimonials" class="first-section">
+<!-- <center id="testimonials" class="first-section">
       <div class="container" data-aos="fade-up">
 
         <div class="testimonials-slider swiper">
@@ -89,12 +101,11 @@
                 </p>                                                      
                 <div   class="d-flex">
                 <a href="form.html" class="btn-get-started scrollto">Get Started</a>
-        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-              </div>
+        </div>
               </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            <-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -107,12 +118,11 @@
                 </p>                                                      
                 <div   class="d-flex">
                 <a href="form.html" class="btn-get-started scrollto">Get Started</a>
-        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
               </div>
               </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            <-- End testimonial item --
 
 
              <div class="swiper-slide">
@@ -126,12 +136,11 @@
                 </p>                                                      
                 <div   class="d-flex">
                 <a href="form.html" class="btn-get-started scrollto">Get Started</a>
-        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-              </div>
+        </div>
               </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            <-- End testimonial item --
 
              <div class="swiper-slide">
               <div class="testimonial-item">
@@ -144,12 +153,11 @@
                 </p>                                                      
                 <div   class="d-flex">
                 <a href="form.html" class="btn-get-started scrollto">Get Started</a>
-        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-              </div>
+        </div>
               </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            <-- End testimonial item --
 
 
              <div class="swiper-slide">
@@ -163,19 +171,18 @@
                 </p>                                                      
                 <div   class="d-flex">
                 <a href="form.html" class="btn-get-started scrollto">Get Started</a>
-        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-              </div>
+        </div>
               </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            <-- End testimonial item --
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-</center>
+</center> -->
 <!-- End Here... -->
   <main id="main">
 
@@ -618,9 +625,7 @@
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>William Anderson</h4>
+                  <a href=""><i class="bi bi-linkedin"></i>  
                 <span>CTO</span>
               </div>
             </div>
