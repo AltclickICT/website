@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Text in Squares</title>
     <style>
-                .squarecontainer {
+ .squarecontainer {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: flex-start; /* Align items to the top */
+            
             
         }
 
@@ -19,9 +20,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             background-color: transparent;
             text-align: center;
-            padding: 2%;
+           
+            overflow: hidden;
             box-sizing: border-box;
             margin-bottom: 25px; /* Margin at the bottom of each square */
+            
         }
 
         .square:nth-child(2n) {
@@ -29,14 +32,13 @@
         }
 
         h2 {
-            font-size: calc(16px + 0.5vw); 
-            margin-bottom: 10px;
-        }
+    font-size: calc(12px + 0.2vw); 
+    margin-bottom: 10px;
+}
 
-        p {
-            font-size: calc(14px + 0.5vw); 
-        }
-
+p {
+    font-size: calc(10px + 0.2vw); 
+}
         
         .icon img {
     width: 50px; /* Adjust the width to your desired size */
