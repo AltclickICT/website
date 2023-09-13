@@ -17,7 +17,7 @@
    </head>
    <body>
       <div class="container">
-         <header>Register for a Course</header>
+         <header>Register for a Course/Training</header>
          <div class="progress-bar">
             <div class="step">
                <p>
@@ -57,13 +57,13 @@
                      <div class="label">
                         First Name
                      </div>
-                     <input type="text"  name="FirstName">
+                     <input type="text"  name="FirstName" required>
                   </div>
                   <div class="field">
                      <div class="label">
                         Last Name
                      </div>
-                     <input type="text" name="LastName">
+                     <input type="text" name="LastName" required>
                   </div>
                   <div class="field">
                      <button class="firstNext next">Next</button>
@@ -77,13 +77,13 @@
                      <div class="label">
                         Email Address
                      </div>
-                     <input type="text" name="EmailAddress">
+                     <input type="email" name="EmailAddress" required>
                   </div>
                   <div class="field">
                      <div class="label">
                         Phone Number
                      </div>
-                     <input type="Number" name="PhoneNumber">
+                     <input type="Number" name="PhoneNumber" required>
                   </div>
                   <div class="field btns">
                      <button class="prev-1 prev">Previous</button>
@@ -99,25 +99,44 @@
                      <div class="label">
                         Course
                      </div>
-                     <select name="Course">
-                        <option value="Cert-Comp">Certificate in Computer</option>
-                        <option value="Dip-Data-Pro">Diploma in Data Processing</option>
-                        <option value="Dip-Sec-Stu">Diploma in Sec. Studies</option>
-                        <option value="VidEdit">Video Editing</option>
-                        <option value="Networking">Networking</option>
-                        <option value="Comp-Eng">Computer Engineering</option>
-                        <option value="Comp-Prog">Computer Programming</option>
-                        <option value="WebDes">Web Design</option>
-                        <option value="SoftDev">Software Development</option>
-                        <option value="Business">Business & Entrepreneurship in IT</option>
-                        <option value="Cyber">Cybersecurity</option>
-                        <option value="Church-Pack">Church Package</option>
-                        <option value="Arch">Architectural Package</option>
-                        <option value="Data-Anal">Data Analyst Package</option>
-                        <option value="cctv">CCTV Installation Package</option>
-                        <option value="2D-3D">2D/3D Animation</option>
+                     <select name="Course" required id="course">
+                     <option selected disabled value="">Choose...</option>
+                     <option value="Frontend Dev">Frontend Development</option>
+                     <option value="Backend Dev">Backend Development</option>
+                     <option value="Full-stack Web Dev">Full-stack Web Developemnt</option>
+                     <option value="MERN Stack Dev">MERN Stack Development</option>
+                     <option value="PHP Stack Dev">PHP Stack Development</option>
+                     <option value="Mobile Apps Dev">Mobile Apps Developent</option>
+                     <option value="Data Analysis">Data Analysis</option>
+                     <option value="Cyber-Security">Cyber Security</option>
+                     <option value="Graphic Design UI-UX">Graphic Design/UI-UX</option>
+                     <option value="Business and Entrepreneurship">Business and Entrepreneurship in IT</option>
+                     <option value="Certificate in Computer">Certificate in Computer</option>
+                     <option value="Diploma in Data Processing">Diploma in Data Processing</option>
+                     <option value="Diploma in Sec Studies">Diploma in Sec. Studies</option>
+                     <option value="Video Editing">Video Editing</option>
+                     <option value="Networking">Networking</option>
+                     <option value="Computer Engineering">Computer Engineering</option>
                      </select>
                   </div>
+                  <div class="field">
+                     <div class="label">
+                        Mode of Training
+                     </div>
+                     <!-- <div>
+                        <p>*Onsite (The onsite training takes place in our office location)</p>
+                        <p>*Virtual (The virtual training is a distance training that happens virtually)</p>
+                        <p>*Private (The private training warrant us comming to your suitable place.)</p>
+                     </div> -->
+                     <select name="mode" required id="mode">
+                     <option selected disabled value="">Choose...</option>
+                     <option value="Onsite">Onsite</option>
+                     <option value="Virtual">Virtual</option>
+                     <option value="Private">Private</option>
+                     </select>
+                  </div>
+                  <div class="field">Amount: <input type="text" id="amount" disabled class="amount"><strike>N</strike></input></div>
+                  <div class="field">Duration: <input type="text" id="duration" disabled class="amount"></input></div>
                   <div class="field btns">
                     <button class="prev-3 prev">Previous</button>
                     <button class="submit" type="submit">Submit</button>
@@ -127,5 +146,207 @@
          </div>
       </div>
       <script src="../assets/js/script.js"></script>
-   </body>
+       <!-- Scripts -->
+       <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/owl-carousel.js"></script>
+        <script src="../assets/js/animation.js"></script>
+        <script src="../assets/js/imagesloaded.js"></script>
+        <script src="../assets/js/custom.js"></script>
+
+ 
+        <script>
+          // Example starter JavaScript for disabling form submissions if there are invalid fields
+
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const course = document.getElementById('course');
+  course.addEventListener("change", courseAmount);
+  function courseAmount(){
+     const amount = document.getElementById('amount');
+     const mode = document.getElementById('mode');
+     const duration = document.getElementById('duration');
+   //   If training course if Frontend
+     if(course.value=="Frontend Dev" && mode.value=="Onsite"){
+      amount.value="30";
+      duration.value="";
+     }
+     if(course.value=="Frontend Dev" && mode.value=="Virtual"){
+      amount.value="30";
+     }
+     if(course.value=="Frontend Dev" && mode.value=="Private"){
+      amount.value="30";
+     }
+   //   if training course is backend
+     else if(course.value=="Backend Dev" && mode.value=="Onsite"){
+      amount.value="20";
+      duration.value="";
+     }
+     else if(course.value=="Backend Dev" && mode.value=="Virtual"){
+      amount.value="20";
+      duration.value="";
+     }
+     else if(course.value=="Backend Dev" && mode.value=="Private"){
+      amount.value="20";
+      duration.value="";
+     }
+     //   if training course is Mobile Apps Developent
+     else if(course.value=="Mobile Apps Deve" && mode.value=="Onsite"){
+      amount.value="10";
+      duration.value="";
+     }
+     else if(course.value=="Mobile Apps Deve" && mode.value=="Virtual"){
+      amount.value="10";
+     }
+     else if(course.value=="Mobile Apps Deve" && mode.value=="Private"){
+      amount.value="10"
+     }
+   //   if training course is MERN
+     else if(course.value=="MERN Stack Dev" && mode.value=="Onsite"){
+      amount.value="10";
+      duration.value="";
+     }
+     else if(course.value=="MERN Stack Dev" && mode.value=="Virtual"){
+      amount.value="10";
+     }
+     else if(course.value=="MERN Stack Dev" && mode.value=="Private"){
+      amount.value="10"
+     }
+   //   if training course is full-stall
+     else if(course.value=="Full-stack Web Dev" && mode.value=="Onsite"){
+      amount.value="15";
+      duration.value="";
+     }
+     else if(course.value=="Full-stack Web Dev" && mode.value=="Virtual"){
+      amount.value="15";
+     }
+     else if(course.value=="Full-stack Web Dev" && mode.value=="Private"){
+      amount.value="15"
+     }
+   //   if training course is PHP full-stack
+     else if(course.value=="PHP Stack Dev" && mode.value=="Onsite"){
+      amount.value="40";
+      duration.value=""
+     }
+     else if(course.value=="PHP Stack Dev" && mode.value=="Virtual"){
+      amount.value="40";
+     }
+     else if(course.value=="PHP Stack Dev" && mode.value=="Private"){
+      amount.value="40"
+     }
+   //   if training course is data analysis
+     else if(course.value=="Data Analysis" && mode.value=="Onsite"){
+      amount.value="50"
+     }
+     else if(course.value=="Data Analysis" && mode.value=="Virtual"){
+      amount.value="50"
+     }
+     else if(course.value=="Data Analysis" && mode.value=="Private"){
+      amount.value="50"
+     }
+   //   if training course is cyber security
+     else if(course.value=="Cyber-Security" && mode.value=="Onsite"){
+      amount.value="60"
+     }
+     else if(course.value=="Cyber-Security" && mode.value=="Virtual"){
+      amount.value="60"
+     }
+     else if(course.value=="Cyber-Security" && mode.value=="Private"){
+      amount.value="60"
+     }
+   //   if training course is UI-UX
+     else if(course.value=="Graphic Design UI-UX" && mode.value=="Onsite"){
+      amount.value="70"
+     }
+     else if(course.value=="Graphic Design UI-UX" && mode.value=="Virtual"){
+      amount.value="70"
+     }
+     else if(course.value=="Graphic Design UI-UX" && mode.value=="Private"){
+      amount.value="70"
+     }
+   //   if training course is business and entrepreneurship in IT
+     else if(course.value=="Business and Entrepreneurship" && mode.value=="Onsite"){
+      amount.value="80"
+     }
+     else if(course.value=="Business and Entrepreneurship" && mode.value=="Virtual"){
+      amount.value="80"
+     }
+     else if(course.value=="Business and Entrepreneurship" && mode.value=="Private"){
+      amount.value="80"
+     }
+   //   if training course is certificate in computer
+     else if(course.value=="Certificate in Computer" && mode.value=="Onsite"){
+      amount.value="50000"
+     }
+     else if(course.value=="Certificate in Computer" && mode.value=="Virtual"){
+      amount.value="50"
+     }
+     else if(course.value=="Certificate in Computer" && mode.value=="Private"){
+      amount.value="50"
+     }
+
+   //    if training course is diploma in data processing
+     else if(course.value=="Diploma in Data Processing" && mode.value=="Onsite"){
+      amount.value="100"
+     }
+     else if(course.value=="Diploma in Data Processing" && mode.value=="Virtual"){
+      amount.value="100"
+     }
+     else if(course.value=="Diploma in Data Processing" && mode.value=="Private"){
+      amount.value="100"
+     }
+     //    if training course is diploma in sec studies
+     else if(course.value=="Diploma in Sec Studies" && mode.value=="Onsite"){
+      amount.value="100"
+     }
+     else if(course.value=="Diploma in Sec Studies" && mode.value=="Virtual"){
+      amount.value="100"
+     }
+     else if(course.value=="Diploma in Sec Studies" && mode.value=="Private"){
+      amount.value="100"
+     }
+   //   if training course is video editing
+     else if(course.value=="Video Editing" && mode.value=="Onsite"){
+      amount.value="55"
+     }
+     else if(course.value=="Video Editing" && mode.value=="Virtual"){
+      amount.value="55"
+     }
+     else if(course.value=="Video Editing" && mode.value=="Private"){
+      amount.value="55"
+     }
+   //   if training course is networking
+     else if(course.value=="Networking" && mode.value=="Onsite"){
+      amount.value="65"
+     }
+     else if(course.value=="Networking" && mode.value=="Virtual"){
+      amount.value="65"
+     }
+     else if(course.value=="Networking" && mode.value=="Private"){
+      amount.value="65"
+     }
+   //   if training course is computer engineering
+     else if(course.value=="Computer Engineering" && mode.value=="Onsite"){
+      amount.value="75"
+     }
+     else if(course.value=="Computer Engineering" && mode.value=="Virtual"){
+      amount.value="75"
+     }
+     else if(course.value=="Computer Engineering" && mode.value=="Private"){
+      amount.value="75"
+     }
+     else{
+      amount.value="0.00"
+     }
+
+
+  }
+
+  
+        </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
 </html>
