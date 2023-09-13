@@ -57,37 +57,37 @@ p {
     <div class="squarecontainer">
         <div class="square">
             <img src="assets/icons/webdev.png" alt="Web Development Icon">
-            <h2 class="item">Web Development</h2>
-            <p>We specialize in web development, creating websites and web applications</p>
+            <a href="./view/webdevInfo.php"><h2 class="item">Web Design</h2></a>
+            <p>We specialize in web design for websites and web applications</p>
         </div>
         <div class="square">
             <img src="assets/icons/fullstack.png" alt="Web Development Icon">
-            <h2 class="item">Full Stack Development</h2>
+            <a href="./view/fullstackInfo.php"><h2 class="item">Full Stack Development</h2></a>
             <p>We provide comprehensive full stack development services for web applications.</p>
         </div>
         <div class="square">
             <img src="assets/icons/engineer.png" alt="Web Development Icon">
-            <h2 class="item">Software Engineering</h2>
+        <a href="./view/softwareengInfo.php"><h2 class="item">Software Engineering</h2></a>
             <p>Training Future IT professionals in the field of Software Engineering</p>
         </div>
         <div class="square">
             <img src="assets/icons/design.png" alt="Web Development Icon">
-            <h2 class="item">UI/UX Design</h2>
+        <a href="./view/uiuxInfo.php"> <h2 class="item">UI/UX Design</h2></a>
             <p>Our expert designers create user-friendly and visually appealing interfaces.</p>
         </div>
         <div class="square">
             <img src="assets/icons/data.png" alt="Web Development Icon">
-            <h2 class="item">Data Analytics</h2>
+        <a href="./view/dataanalytics.php"><h2 class="item">Data Analytics</h2></a>
             <p>We analyze data to provide valuable insights for your business.</p>
         </div>
         <div class="square">
             <img src="assets/icons/robot.png" alt="Web Development Icon">
-            <h2 class="item">Robotics</h2>
+        <a href="./view/roboticsInfo.php"><h2 class="item">Robotics</h2></a>
             <p>Teaching robotics prepares the next generation of innovators.</p>
         </div>
         <div class="square">
             <img src="assets/icons/security.png" alt="Web Development Icon">
-            <h2 class="item">Cyber Security</h2>
+        <a href="./view/cybersecurityInfo.php"> <h2 class="item">Cyber Security</h2></a>
             <p>We provide courses to help individuals stay safe online.</p>
         </div>
     </div>
