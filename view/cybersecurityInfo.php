@@ -103,7 +103,7 @@
     <p>Our classes are the ultimate battleground for tech-savvy heroes, future ethical hackers, and anyone passionate about safeguarding the digital frontier.</p>
 
 
-    h2><strong> What You Will Learn </strong></h2>
+    <h2><strong> What You Will Learn </strong></h2>
 
     <ul style="list-style-type: none;">
         <li><p>Intro to Kali Linux</p></li>

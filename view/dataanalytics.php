@@ -96,7 +96,7 @@
 
     <p>Learn from expert instructors, explore a comprehensive curriculum, and gain hands-on experience.</p>
 
-    <h2><strong> Why Choose Our Cybersecurity Classes?</strong></h2>
+    <h2><strong> Why Choose Our Data Analytics Classes?</strong></h2>
     <p>Our elite team of instructors will lead you through a thrilling curriculum, immersing you in the world of hacking, encryption, and digital warfare, equipping you with the skills to protect and fortify the digital world.</p>
     <h2><strong>Who Can Benefit?</strong></h2>
 

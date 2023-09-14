@@ -94,7 +94,7 @@
                     
                     <h2><strong> Become a Networking Professional With our world class Instructors</strong></h2>
 
-    <h2><strong> Why Choose Our Cybersecurity Classes?</strong></h2>
+    
     <p>Our industry-seasoned instructors will guide you through a dynamic curriculum, helping you master Networking.</p>
     <h2><strong>Who Can Benefit?</strong></h2>
 

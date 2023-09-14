@@ -92,7 +92,7 @@
 
                 <div class="section-header">
                     
-                    <h2><strong>Unleash the Power of Data Analytics</strong></h2>
+                    <h2><strong>Unleash the Power of Robotics</strong></h2>
 
     <p>Learn from expert instructors, explore a comprehensive curriculum, and gain hands-on experience.</p>
 

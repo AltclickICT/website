@@ -94,7 +94,6 @@
                     
                     <h2><strong> Grow Your Creativity with Our Video Editing Classes</strong></h2>
 
-    <h2><strong> Why Choose Our Cybersecurity Classes?</strong></h2>
     <p>Our industry-seasoned instructors will guide you through a dynamic curriculum, helping you master creativity and making you a world class video editor.</p>
     <h2><strong>Who Can Benefit?</strong></h2>
 
