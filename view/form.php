@@ -173,11 +173,11 @@
       amount.value="150000";
       duration.value="24 Weeks";
      }
-     if(course.value=="Frontend Dev" && mode.value=="Virtual"){
+     else if(course.value=="Frontend Dev" && mode.value=="Virtual"){
       amount.value="90000";
       duration.value="24 Weeks";
      }
-     if(course.value=="Frontend Dev" && mode.value=="Private"){
+     else if(course.value=="Frontend Dev" && mode.value=="Private"){
       amount.value="230000";
       duration.value="24 Weeks";
      }
