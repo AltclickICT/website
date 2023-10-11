@@ -71,11 +71,12 @@
             </nav>
             <!-- .navbar -->
 
-            <div>
+            <div >
+                <button class="btn-getstarted" style="border-width: 0px;" id="getStartedButton" data-src="view/form.php">Get Started</button>
+                <button class="btn-getstarted" style="border-width: 0px; background-color: green;" id="placeOrderButton" data-src="./view/order.php" style="background-color: green">Place Order</button>
+            <!-- <a class="btn-getstarted" href="view/form.php">Get Started</a>
 
-            <a class="btn-getstarted scrollto btn-primary" href="view/form.php">Get Started</a>
-
-            <a class="btn-getstarted" style="background-color: green" href="./view/order.php">Place Order</a>
+            <a class="btn-getstarted" style="background-color: green" href="./view/order.php">Place Order</a> --> 
 
         </div>
 
@@ -845,6 +846,22 @@
 
     <!--New Script-->
     <script src="assets/js/new.js"></script>
+    <script>
+        document.getElementById('getStartedButton').addEventListener('click', function() {
+          const src = this.getAttribute('data-src');
+          if (src) {
+            window.location.href = src;
+          }
+        });
+      
+        document.getElementById('placeOrderButton').addEventListener('click', function() {
+          const src = this.getAttribute('data-src');
+          if (src) {
+            window.location.href = src;
+          }
+        });
+      </script>
+      
 
 </body>
 

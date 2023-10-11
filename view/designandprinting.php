@@ -117,8 +117,8 @@
                              <option value="file" style="color: #3279FC;">File</option>
                              <option value="flyer" style="color: #3279FC;">Flyer</option>
                              <option value="books" style="color: #3279FC;">Books</option>
-                             <option value="magazine" style="color: #3279FC;">Magazine</option>
-                             <option value="journal" style="color: #3279FC;">Journal</option>
+                             <!-- <option value="magazine" style="color: #3279FC;">Magazine</option>
+                             <option value="journal" style="color: #3279FC;">Journal</option> -->
                          </select>
                          <br><br>
                         <!-- Print Type -->
