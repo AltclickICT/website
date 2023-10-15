@@ -1,120 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Altclick ICT World</title>
-    <meta content="Official Website of AltClick ICT World, Abuja" name="description">
-    <meta content="AltClick ICT World" name="keywords">
-
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/firstsection.css" rel="stylesheet">
-
-    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
-    <link href="assets/css/variables.css" rel="stylesheet">
-    <link href="assets/css/variables-blue.css" rel="stylesheet">
-    <!-- <link href="assets/css/variables-green.css" rel="stylesheet"> -->
-    <!-- <link href="assets/css/variables-orange.css" rel="stylesheet"> -->
-    <!-- <link href="assets/css/variables-purple.css" rel="stylesheet"> -->
-    <!-- <link href="assets/css/variables-red.css" rel="stylesheet"> -->
-    <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/contact_form_style.css">
-
-    <!--New Style-->
-    <link href="assets/css/new.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top" data-scrollto-offset="0">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
-
-            <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/favicon.png" alt=""> -->
-                <h1>Altclick<span>.</span></h1>
-            </a>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-
-                    <!-- <i class="bi bi-chevron-down dropdown-indicator"></i> -->
-                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-                </ul>
-                <!-- <i class="bi bi-list mobile-nav-toggle d-none"></i> -->
-            </nav>
-            <!-- .navbar -->
-
-            <a class="btn-getstarted scrollto btn-primary" href="view/form.php">Get Started</a>
-
-        </div>
-    </header>
+<?php
+ require_once "view/head.php";
+?>
     <!-- End Header -->
-    <!-- First Section Starts Here........ -->
-    <center>
+    <!-- First Section Starts Here........ sky blue color code: #87CEEB; rgb(23, 73, 235)-->
+    <center style="background:var(--color-secondary)">
         <div class="image-slideshow container">
             <div class="image fade">
-                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated" height="30%">
                 <div class="center">
-                    <h2>We are <span>Altclick</span></h2>
-                    <p>
+                    <h1 style="color:white">We are <span>Altclick</span></h1>
+                    <h5 style="color:white">
                         We are Altclick ICT World Limited <br> ...Making the Difference
-                    </p>
+                    </h5>
                     <div class="d-flex">
-                        <a href="view/form.php" class="btn-get-started scrollto">Get Started</a>
+                        <a href="view/form.php" class="btn btn-primary scrollto">Get Started</a>
                         <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
                     </div>
                 </div>
             </div>
             <div class="image fade">
-                <img src="assets/img/hero-carousel/hero-carousel-2.svg" class="img-fluid animated">
+                <img src="assets/img/hero-carousel/hero-carousel-2.svg" class="img-fluid animated" height="30%">
                 <div class="center">
-                    <h2>We Build Cutting Edge Tech <span>Solutions For Business Processes</span></h2>
-                    <p>
+                    <h1 style="color:white">We Build Cutting Edge Tech <span>Solutions For Business Processes</span></h1>
+                    <h5 style="color:white">
                         With technology, we aim at solving complex business <br> problems with innovation, creativity, and strategy.
-                    </p>
+                    </h5>
                     <div class="d-flex">
-                        <a href="view/form.php" class="btn-get-started scrollto">Get Started</a>
+                        <a href="view/form.php" class="btn btn-primary scrollto">Get Started</a>
                         <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
                     </div>
                 </div>
             </div>
             <div class="image fade">
-                <img src="assets/img/hero-carousel/hero-carousel-1.svg" class="img-fluid animated">
+                <img src="assets/img/hero-carousel/hero-carousel-1.svg" class="img-fluid animated" height="30%">
                 <div class="center">
-                    <h2>Enterprise<span>Software Development</span></h2>
-                    <p>
+                    <h1 style="color:white">Enterprise<span>Software Development</span></h1>
+                    <h5 style="color:white">
                         Enterprise-wide integration, security and scalability.
                         <br> We follow a step-by-step software development procedures alongside with security in mind.
-                    </p>
+                    </h5>
                     <div class="d-flex">
-                        <a href="view/form.php" class="btn-get-started scrollto">Get Started</a>
+                        <a href="view/form.php" class="btn btn-primary scrollto">Get Started</a>
                         <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
                     </div>
                 </div>
@@ -193,41 +119,42 @@
 
                 <div class="row gy-6">
 
-                    <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex" data-aos="zoom-out">
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
                                     <h1><strong>1</strong></h1>
-                                    <h4><a href="" class="stretched-link">Discovery</a></h4>
+                                    <h4><b class="stretched-link">Discovery</b></h4>
                                 </center>
                             </div>
-                            <We>We provide the best software services to actualize your ideas, concepts or goals regardless of complexities. Do you need to build bespoke software or hire developers? We discuss your requirements with you and visualize helpful
-                                custom software solutions to meet your needs. We enable andd maintain flexibilty from when you hire us to where your products are deployed.</p>
+                            <p>We provide the best software services to actualize your ideas, concepts or goals regardless of complexities.<span id="dots">..</span><span id="more"> Do you need to build bespoke software or hire developers? We discuss your requirements with you and visualize helpful
+                                custom software solutions to meet your needs. We enable andd maintain flexibilty from when you hire us to where your products are deployed.</span></p>
+                                <button onclick="myFunction()" id="myBtn" class="btn btn-info">Read more</button>
                         </div>
                     </div>
                     <!-- End Service Item -->
 
-                    <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex" data-aos="zoom-out" data-aos-delay="200">
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
                                     <h1><strong>2</strong></h1>
-                                    <h4><a href="" class="stretched-link">Design</a></h4>
+                                    <h4><b class="stretched-link">Design</b></h4>
                                 </center>
                             </div>
                             <p>With a viable project scope, we assemble exceptional designers and developers who execute our solutions perfectly. As an agency, we pride ourselves on customer satisfaction, so we maitain unhindered communication with you throughout
                                 our planning and execution process to ensure our developers implement all your requirements into the project architecture.
-                            </p>
+                            </p><i>Read more</i>
                         </div>
                     </div>
                     <!-- End Service Item -->
 
-                    <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="400">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12  d-flex" data-aos="zoom-out" data-aos-delay="400">
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
                                     <h1><strong>3</strong></h1>
-                                    <h4><a href="" class="stretched-link">Development</a></h4>
+                                    <h4><b class="stretched-link">Development</b></h4>
                                 </center>
                             </div>
                             <p>It's time to bring your project to life now that we have your design. Using agile methodology, our developers break down your product into manageable and measurable chunks called sprints and work on them in a time and priority-based
@@ -236,12 +163,12 @@
                     </div>
                     <!-- End Service Item -->
 
-                    <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="600">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12  d-flex" data-aos="zoom-out" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
                                     <h1><strong>4</strong></h1>
-                                    <h4><a href="" class="stretched-link">Testing</a></h4>
+                                    <h4><b class="stretched-link">Testing</b></h4>
                                 </center>
                             </div>
                             <p>We test during project development to verify the functionality and performance of your product before release. We typically approach this with two methods: Unit Testing, where we test individual units of source code, such as
@@ -250,12 +177,12 @@
                         </div>
                     </div>
                     <!-- End Service Item -->
-                    <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="600">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex" data-aos="zoom-out" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
                                     <h1><strong>5</strong></h1>
-                                    <h4><a href="" class="stretched-link">Deployment</a></h4>
+                                    <h4><b class="stretched-link">Deployment</b></h4>
                                 </center>
                             </div>
                             <p>Deployment is automated, which means that new features of your product are readily available. After each feature passes the testing phase and meets all sprint goals, the developers integrate it for final testing. The outcome
@@ -263,12 +190,12 @@
                         </div>
                     </div>
                     <!-- End Service Item -->
-                    <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="600">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex" data-aos="zoom-out" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
                                     <h1><strong>6</strong></h1>
-                                    <h4><a href="" class="stretched-link">Maintenance</a></h4>
+                                    <h4><b class="stretched-link">Maintenance</b></h4>
                                 </center>
                             </div>
                             <p>Part of our services to you is the maintenance and management of your database, data warehouses and applications. Our developers ensure the maintenance of your product's functionality by dealing with bugs and faults and implementing
@@ -415,7 +342,7 @@
 
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
-                                            <img src="assets/img/team/team-1.jpg" class="testimonial-img" alt="">
+                                            <img src="assets/img/team/team-1.jpg" class="testimonial-img" alt="James Nenge -CEO">
                                             <h3>James Nenge</h3>
                                             <h4>CEO/Chief Executive Owner</h4>
                                             <div class="stars">
@@ -440,7 +367,7 @@
                                     <!-- Start Team Item-->
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
-                                            <img src="assets/img/team/godwin.jpg" class="testimonial-img" alt="">
+                                            <img src="assets/img/team/godwin.jpg" class="testimonial-img" alt="Godwin Ikpe Ugbe -Software Developer">
                                             <h3>Godwin Ikpe Ugbe</h3>
                                             <h4>Software Developer (Full-Stack)</h4>
                                             <div class="stars">
@@ -464,7 +391,7 @@
                                     <!-- Start Team Item-->
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
-                                            <img src="assets/img/team/vicky.jpg" class="testimonial-img" alt="">
+                                            <img src="assets/img/team/vicky.jpg" class="testimonial-img" alt="Agada Victoria -Secretary">
                                             <h3>Agada Victoria</h3>
                                             <h4>Secretary</h4>
                                             <div class="stars">
@@ -489,13 +416,13 @@
                                     <!-- Start Team Item-->
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
-                                            <img src="assets/img/team/david1.jpg" class="testimonial-img" alt="">
-                                            <h3>David Ojimaojo Daniel </h3>
+                                            <img src="assets/img/team/david1.jpg" class="testimonial-img" alt="David Ojimaojo Daniel -Hardware Engineer">
+                                            <h3>David Ojimaojo Daniel</h3>
                                             <h4>Hardware Engineer</h4>
                                             <div class="stars">
                                                 <!-- social media icons-->
                                                 <div class="social-icons">
-                                                    <a href="https://web.facebook.com/ojimaojo.tech.1" class="social-icon"><i class="bi bi-facebook color-blue"></i></a>
+                                                    <a href="https://web.facebook.com/sir.ojimaojo" class="social-icon"><i class="bi bi-facebook color-blue"></i></a>
 
                                                     <!-- Add more social media icons as needed -->
                                                 </div>
@@ -514,8 +441,8 @@
                                     <!-- Start Team Item-->
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
-                                            <img src="assets/img/team/obi.jpg" class="testimonial-img" alt="">
-                                            <h3> Joseph Micheal Obinna </h3>
+                                            <img src="assets/img/team/obi.jpg" class="testimonial-img" alt="Joseph Micheal Obinna -Marketer">
+                                            <h3>Joseph Micheal Obinna</h3>
                                             <h4>Marketer</h4>
                                             <div class="stars">
                                                 <!-- social media icons-->
@@ -537,8 +464,8 @@
                                     <!-- Start Team Item-->
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
-                                            <img src="assets/img/team/natty.png" class="testimonial-img" alt="">
-                                            <h3> Isaac Dauda </h3>
+                                            <img src="assets/img/team/natty.png" class="testimonial-img" alt="Isaac Dauda -Frontend Dev">
+                                            <h3>Isaac Dauda</h3>
                                             <h4>Software Developer (Front-End)</h4>
                                             <div class="stars">
                                                 <!-- social media icons-->
@@ -739,7 +666,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="footer-info">
                             <h3>Altclick <span>ICT World</span></h3>
 
@@ -751,18 +678,18 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 footer-links">
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="index.html#courses">Courses</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="index.html#team">Team</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="index.html#contact">Contact</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="index.php">Home</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="index.php#about">About us</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="index.php#courses">Courses</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="index.php#team">Team</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="index.php#contact">Contact</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-links">
                         <h4>Our Services</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="table.html">Training and Mentoring Techers</a></li>
@@ -802,7 +729,7 @@
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> || <i class="ti-heart text-success"></i><span class="text-success" title="">Software Developers</span></a>
+                            </script> || <i class="ti-heart text-success"></i><span class="text-success" title=""><b>Technologies With The Difference</b></span></a>
                         </p>
                     </div>
                 </div>
@@ -824,6 +751,24 @@
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <div id="preloader"></div>
+    <script>
+        console.log("Read more function");
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -839,7 +784,7 @@
 
     <!--New Script-->
     <script src="assets/js/new.js"></script>
-
+    
 </body>
 
 </html>
