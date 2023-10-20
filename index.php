@@ -49,39 +49,37 @@
 
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top" data-scrollto-offset="0">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/favicon.png" alt=""> -->
+      <h1>Altclick<span>.</span></h1>
+    </a>
 
-            <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/favicon.png" alt=""> -->
-                <h1>Altclick<span>.</span></h1>
-            </a>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <!-- <i class="bi bi-chevron-down dropdown-indicator"></i> -->
+        <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+        <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+        <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+        <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+        <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+      </ul>
+      <!-- <i class="bi bi-list mobile-nav-toggle d-none"></i> -->
+    </nav>
+    <!-- .navbar -->
 
-            <nav id="navbar" class="navbar">
-                <ul>
+    <div>
+      <button class="btn-getstarted" style="border-width: 0px;" id="getStartedButton" data-src="view/form.php">Get Started</button>
+      <button class="btn-getstarted" style="border-width: 0px; background-color: green;" id="placeOrderButton" data-src="./view/order.php"
+        style="background-color: green">Place Order</button>
+      <!-- <a class="btn-getstarted" href="view/form.php">Get Started</a>
+      <a class="btn-getstarted" style="background-color: green" href="./view/order.php">Place Order</a>
+      -->
+    </div>
+  </div>
+</header>
 
-                    <!-- <i class="bi bi-chevron-down dropdown-indicator"></i> -->
-                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-                </ul>
-                <!-- <i class="bi bi-list mobile-nav-toggle d-none"></i> -->
-            </nav>
-            <!-- .navbar -->
-
-            <div >
-                <button class="btn-getstarted" style="border-width: 0px;" id="getStartedButton" data-src="view/form.php">Get Started</button>
-                <button class="btn-getstarted" style="border-width: 0px; background-color: green;" id="placeOrderButton" data-src="./view/order.php" style="background-color: green">Place Order</button>
-            <!-- <a class="btn-getstarted" href="view/form.php">Get Started</a>
-
-            <a class="btn-getstarted" style="background-color: green" href="./view/order.php">Place Order</a> --> 
-
-        </div>
-
-        </div>
-    </header>
     <!-- End Header -->
     <!-- First Section Starts Here........ -->
     <center>
@@ -860,6 +858,19 @@
             window.location.href = src;
           }
         });
+
+
+
+         // JavaScript for toggling the mobile menu
+    const header = document.querySelector('.header');
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileNavToggle.addEventListener('click', function () {
+      navLinks.classList.toggle('active');
+    });
+
+
       </script>
       
 
