@@ -57,8 +57,13 @@ p {
     <div class="squarecontainer">
         <div class="square">
             <img src="assets/icons/webdev.png" alt="Web Development Icon">
-            <a href="./view/webdevInfo.php"><h2 class="item">Web Design</h2></a>
+            <a href="./view/webdevInfo.php"><h2 class="item">Web Development (Front-End)</h2></a>
             <p>We specialize in web design for websites and web applications</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/webdev.png" alt="Web Development Icon">
+            <a href="./view/webdevInfob.php"><h2 class="item">Web Development (Back-End)</h2></a>
+            <p>We specialize in web development, we develop websites and web applications</p>
         </div>
         <div class="square">
             <img src="assets/icons/fullstack.png" alt="Web Development Icon">
@@ -82,13 +87,58 @@ p {
         </div>
         <div class="square">
             <img src="assets/icons/robot.png" alt="Web Development Icon">
-        <a href="./view/roboticsInfo.php"><h2 class="item">Robotics</h2></a>
+        <a href="./view/robotics.php"><h2 class="item">Robotics</h2></a>
             <p>Teaching robotics prepares the next generation of innovators.</p>
         </div>
         <div class="square">
             <img src="assets/icons/security.png" alt="Web Development Icon">
         <a href="./view/cybersecurityInfo.php"> <h2 class="item">Cyber Security</h2></a>
             <p>We provide courses to help individuals stay safe online.</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/eng.png" alt="Web Development Icon">
+        <a href="./view/certificateincomputer.php"> <h2 class="item">Certificate in Computer</h2></a>
+            <p>Unlock your digital potential with our Certificate in Computer course.</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/dip.png" alt="Web Development Icon">
+        <a href="./view/dataprocessing.php"> <h2 class="item">Diploma in Data Processing</h2></a>
+            <p>Unlock your digital potential with our Diploma in Data Processing</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/dip.png" alt="Web Development Icon">
+        <a href="./view/dipinsec.php"> <h2 class="item">Diploma in Sec. Studies</h2></a>
+            <p>Unlock your digital potential with our Diploma in Sec. Studies.</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/video.png" alt="Web Development Icon">
+        <a href="./view/videoediting.php"> <h2 class="item">Video Editing</h2></a>
+            <p>Come Unlock your creativity with our video editing classes.</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/network.png" alt="Web Development Icon">
+        <a href="./view/networking.php"> <h2 class="item">Networking</h2></a>
+            <p>We provide courses to help individuals become Networking professionals.</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/eng.png" alt="Web Development Icon">
+        <a href="./view/computerengineering.php"> <h2 class="item">Computer Engineering</h2></a>
+            <p>We provide courses to help become world class computer engineers.</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/eng.png" alt="Web Development Icon">
+        <a href="./view/apibuilding.php"> <h2 class="item">API Building and Implementation</h2></a>
+            <p>All you need to know concerning API Building and Implementation.</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/business.png" alt="Web Development Icon">
+        <a href="./view/business.php"> <h2 class="item">Business & Enterpreneurship in IT</h2></a>
+            <p>Business & Enterpreneurship in IT is essntial to grow financially</p>
+        </div>
+        <div class="square">
+            <img src="assets/icons/special.png" alt="Web Development Icon">
+        <a href="./view/special.php"> <h2 class="item">Special Packages</h2></a>
+            <p>Take part in our special programs.</p>
         </div>
     </div>
 </body>

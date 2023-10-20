@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title> Data Analytics Classes</title>
+    <title>Data Analytics Classes</title>
     <meta content="Official Website of AltClick ICT World, Abuja" name="description">
     <meta content="AltClick ICT World" name="keywords">
 
@@ -62,6 +62,7 @@
 
                     <!-- <i class="bi bi-chevron-down dropdown-indicator"></i> -->
                     <li><a class="nav-link scrollto" href="./../index.html">Home</a></li>
+                    
                 </ul>
                 <!-- <i class="bi bi-list mobile-nav-toggle d-none"></i> -->
             </nav>
@@ -91,18 +92,30 @@
 
                 <div class="section-header">
                     
-                    <h2><strong> Explore the World of Data Analytics</strong></h2>
+                    <h2><strong>Unleash the Power of Data Analytics</strong></h2>
 
-    <p>Join our data analytics classes and dive into the world of data-driven decision-making, insights, and statistical analysis.</p>
+    <p>Learn from expert instructors, explore a comprehensive curriculum, and gain hands-on experience.</p>
 
-    <h2><strong>Why Choose Our Data Analytics Classes?</strong></h2>
-
-    <p>Our experienced instructors will guide you through a comprehensive curriculum, equipping you with the skills needed to analyze and interpret data for informed business decisions.</p>
-
+    <h2><strong> Why Choose Our Data Analytics Classes?</strong></h2>
+    <p>Our elite team of instructors will lead you through a thrilling curriculum, immersing you in the world of hacking, encryption, and digital warfare, equipping you with the skills to protect and fortify the digital world.</p>
     <h2><strong>Who Can Benefit?</strong></h2>
 
-    <p>Our classes are ideal for aspiring data analysts, professionals seeking to enhance their analytical skills, and anyone interested in the exciting field of data analytics.</p>
+    <p>Our classes are the ultimate battleground for tech-savvy heroes, future ethical hackers, and anyone passionate about safeguarding the digital frontier.</p>
 
+    <h2><strong> What You Will Learn </strong></h2>
+
+    <ul style="list-style-type: none;">
+        <li><p>Excel</p></li>
+        <li><p> Ms. Access </p></li>
+        <li><p> Google Data Analytics </p></li>
+        <li><p> Statistical Studies </p></li>
+        <li><p> Intro To Programming </p></li>
+        <li><p> Intro To SQL </p></li>
+        <li><p> Python </p></li>
+    </ul>
+
+    <h2><strong>Duration:</strong></h2> 
+    <p>3 months </p>
 
     <h2><strong>Join Us Today!</strong></h2>
 
@@ -114,7 +127,7 @@
         <li><p>Private Lessons: ₦230,000 </p></li>
     </ul>
                     <!-- <p> We do Software Development, Installation, And Maintenance, Hardware Development Network Installation Computer Information And Internet courses, Communication Technology (ICT) courses</p> -->
-                    <a href="/AltClick/view/form.php">  <button class="btn btn-primary" style="margin-top: 20px; height: 100px; width: 300px;" ><h2 style="color: white;">Register Now</h2></button></a>
+                  <a href="/AltClick/view/form.php">  <button class="btn btn-primary" style="margin-top: 20px; height: 100px; width: 300px;" ><h2 style="color: white;">Register Now</h2></button></a>
                 </div>
 
                 <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">

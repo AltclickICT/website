@@ -91,30 +91,37 @@
 
                 <div class="section-header">
                     
-                    <h2><strong> Explore the World of Full Stack Development</strong></h2>
+                    <h2><strong>Why Choose Our Full Stack Development Classes?</strong></h2>
 
-    <p>Join our full stack developer classes and embark on a journey to master both front-end and back-end technologies.</p>
+    <p>Learn from expert instructors, explore a comprehensive curriculum, and gain hands-on experience.</p>
 
-    <h2><strong>Why Choose Our Full Stack Developer Classes?</strong></h2>
+    <h2><strong> Who Can Benefit? </strong></h2>
 
-    <p>Our expert instructors will guide you through a comprehensive curriculum, helping you become a versatile developer capable of creating entire web applications.</p>
-    
+    <p>Perfect for beginners, intermediate developers, career changers, and entrepreneurs.</p>
 
-
-    <h2><strong>Join Us Today!</strong></h2>
-
-    <p>Start your journey toward becoming a full stack developer with our hands-on and immersive classes.</p>
-
-    <h2><strong>Prices:</strong></h2>
+    <h2><strong> What You Will Learn </strong></h2>
 
     <ul style="list-style-type: none;">
-        <li><p>Onsite Classes: ₦250,000 </p></li>
-        <li><p>Remote Classes: ₦230,000 </p></li>
-        <li><p>Private Lessons: ₦350,000 </p></li>
+        <li><p><strong>MERN stack development</strong></p></li>
+        <li><p> Programming packages for MERN STACK, include: HTML, CSS, Javascript,
+             MongoDB, Express.js, React.js, Node.js, Git, and Hosting and Deployment </p></li>
+        <li><p><strong>Full-stack PHP Development</strong> </p></li>
+        <li><p> Programme packages for PHP full-stack include: HTML, CSS, 
+            Javascript, Bootstrap, PHP, Codeigniter, SQL, Github and Git tools, Hosting and Deployment</p></li>
+    </ul>
+    <h2><strong>Duration:</strong></h2> 
+    <p>4 months + 2 Months Internship</p>
+    <h2><strong>Join Us Today!</strong></h2>
+
+    <h2><strong>Prices</strong></h2>
+
+    <ul style="list-style-type: none;">
+        <li><p>Onsite Classes: ₦200,000 </p></li>
+        <li><p>Remote Classes: ₦180,000 </p></li>
+        <li><p>Private Lessons: ₦300,000 </p></li>
     </ul>
                     <!-- <p> We do Software Development, Installation, And Maintenance, Hardware Development Network Installation Computer Information And Internet courses, Communication Technology (ICT) courses</p> -->
-                    <a href="/AltClick/view/form.php">  <button class="btn btn-primary" style="margin-top: 20px; height: 100px; width: 300px;" ><h2 style="color: white;">Register Now</h2></button></a>
-                </div>
+                    <a href="/AltClick/view/form.php">  <button class="btn btn-primary" style="margin-top: 20px; height: 100px; width: 300px;" ><h2 style="color: white;">Register Now</h2></button></a>                </div>
 
                 <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
 

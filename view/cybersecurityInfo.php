@@ -102,6 +102,25 @@
 
     <p>Our classes are the ultimate battleground for tech-savvy heroes, future ethical hackers, and anyone passionate about safeguarding the digital frontier.</p>
 
+
+    <h2><strong> What You Will Learn </strong></h2>
+
+    <ul style="list-style-type: none;">
+        <li><p>Intro to Kali Linux</p></li>
+        <li><p> Intro to various Operating Systems</p></li>
+        <li><p> Networking </p></li>
+        <li><p> Data Science </p></li>
+        <li><p>Cloud Security</p></li>
+        <li><p> Industrial Security Controls</p></li>
+        <li><p> Vulnerability Assessment and Operations</p></li>
+        <li><p> Security Architecture and Operations </p></li>
+        <li><p> Intro to Ethical Hacking </p></li>
+    </ul>
+
+    <h2><strong>Duration:</strong></h2> 
+    <p>5 months </p>
+
+
     <h2><strong>Join Us Today!</strong></h2>
 
     <h2><strong>Prices</strong></h2>

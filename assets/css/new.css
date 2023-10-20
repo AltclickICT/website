@@ -48,3 +48,18 @@ p {
 }
 
 
+.btn-getstarted {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%; /* By default, the buttons take up the full width */
+}
+
+@media (min-width: 768px) {
+    .btn-getstarted {
+        width: auto; /* On larger screens, buttons can have their natural width */
+        display: inline-block;
+        margin-right: 10px; /* Add some spacing between the buttons */
+    }
+}
+

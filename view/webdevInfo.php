@@ -99,6 +99,20 @@
 
     <p>Perfect for beginners, intermediate developers, career changers, and entrepreneurs.</p>
 
+    <h2><strong> What You Will Learn </strong></h2>
+
+    <ul style="list-style-type: none;">
+        <li><p>HTML</p></li>
+        <li><p> CSS </p></li>
+        <li><p> JavaScript </p></li>
+        <li><p> React.js </p></li>
+        <li><p> Bootstrap </p></li>
+        <li><p> Github and Git tools </p></li>
+    </ul>
+
+    <h2><strong>Duration:</strong></h2> 
+    <p>4 months + 2 Months Internship</p>
+
     <h2><strong>Join Us Today!</strong></h2>
 
     <h2><strong>Prices</strong></h2>

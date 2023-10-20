@@ -98,6 +98,21 @@
 
     <p>Our industry-seasoned instructors will guide you through a dynamic curriculum, helping you master the art of user interface and user experience design.</p>
 
+
+    <h2><strong> What You Will Learn </strong></h2>
+
+<ul style="list-style-type: none;">
+    <li><p>Introduction To Design</p></li>
+    <li><p> Foundation Of Graphics Design </p></li>
+    <li><p> UX Design (User Experience) </p></li>
+    <li><p> UI Design (User Interface) </p></li>
+    <li><p> Prototyping And Wire-framing </p></li>
+    <li><p> Optimization of Design Tools: Figma, Adobe XD, and Photoshop </p></li>
+</ul>
+
+<h2><strong>Duration:</strong></h2> 
+<p>3 months + 1 Months Internship</p>
+
     <h2><strong>Join Us Today!</strong></h2>
 
     <h2><strong>Prices</strong></h2>

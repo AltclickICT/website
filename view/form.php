@@ -1,3 +1,7 @@
+<?php
+// require_once "header.php";
+require('../controller/register.php')
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
    <head>
@@ -15,9 +19,16 @@
       <link rel="stylesheet" href="../assets/css/style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
    </head>
-   <body>
+   <body style="overflow: scroll;">
       <div class="container">
-         <header>Register for a Course</header>
+         <!-- <center> -->
+         <header>Registration Form</header>
+         <p style="color:red"><b>Altclick ICT World Course/Training Registration.</b></p>
+         <?php if ($err_msg!="") : ?>
+            <div class="container">
+                  <div class="alert alert-danger" style="color:white; background:red; height:25px; padding:10px"><?php echo $err_msg . '<br>' ?></div>
+            </div>
+         <?php endif; ?>
          <div class="progress-bar">
             <div class="step">
                <p>
@@ -48,7 +59,9 @@
             </div>
          </div>
          <div class="form-outer">
-            <form action="https://getform.io/f/d03b8bd9-6365-46af-9a9e-283be59f1ca2" method="POST">
+            <form action="" method="post">
+            <!-- https://getform.io/f/d03b8bd9-6365-46af-9a9e-283be59f1ca2 -->
+            <!-- <form action="" method="POST"> -->
                <div class="page slide-page">
                   <div class="title">
                      Basic Info:
@@ -77,7 +90,7 @@
                      <div class="label">
                         Email Address
                      </div>
-                     <input type="text" name="EmailAddress">
+                     <input type="email" name="EmailAddress">
                   </div>
                   <div class="field">
                      <div class="label">
@@ -99,33 +112,66 @@
                      <div class="label">
                         Course
                      </div>
-                     <select name="Course">
-                        <option value="Cert-Comp">Certificate in Computer</option>
-                        <option value="Dip-Data-Pro">Diploma in Data Processing</option>
-                        <option value="Dip-Sec-Stu">Diploma in Sec. Studies</option>
-                        <option value="VidEdit">Video Editing</option>
-                        <option value="Networking">Networking</option>
-                        <option value="Comp-Eng">Computer Engineering</option>
-                        <option value="Comp-Prog">Computer Programming</option>
-                        <option value="WebDes">Web Design</option>
-                        <option value="SoftDev">Software Development</option>
-                        <option value="Business">Business & Entrepreneurship in IT</option>
-                        <option value="Cyber">Cybersecurity</option>
-                        <option value="Church-Pack">Church Package</option>
-                        <option value="Arch">Architectural Package</option>
-                        <option value="Data-Anal">Data Analyst Package</option>
-                        <option value="cctv">CCTV Installation Package</option>
-                        <option value="2D-3D">2D/3D Animation</option>
+                     <select name="Course"  id="course">
+                     <option selected disabled value="">Choose...</option>
+                     <option value="Frontend Dev">Frontend Development</option>
+                     <option value="Backend Dev">Backend Development</option>
+                     <option value="Full-stack Web Dev">Full-stack Web Developemnt</option>
+                     <option value="MERN Stack Dev">MERN Stack Development</option>
+                     <option value="PHP Stack Dev">PHP Stack Development</option>
+                     <option value="Mobile Apps Dev">Mobile Apps Developent</option>
+                     <option value="Data Analysis">Data Analysis</option>
+                     <option value="Cyber-Security">Cyber Security</option>
+                     <option value="Graphic Design UI-UX">Graphic Design/UI-UX</option>
+                     <option value="Business and Entrepreneurship">Business and Entrepreneurship in IT</option>
+                     <option value="Certificate in Computer">Certificate in Computer</option>
+                     <option value="Diploma in Data Processing">Diploma in Data Processing</option>
+                     <option value="Diploma in Sec Studies">Diploma in Sec. Studies</option>
+                     <option value="Video Editing">Video Editing</option>
+                     <option value="Networking">Networking</option>
+                     <option value="Computer Engineering">Computer Engineering</option>
                      </select>
                   </div>
+                  <div class="field">
+                     <div class="label">
+                        Mode of Training
+                     </div>
+                     <!-- <div>
+                        <p>*Onsite (The onsite training takes place in our office location)</p>
+                        <p>*Virtual (The virtual training is a distance training that happens virtually)</p>
+                        <p>*Private (The private training warrant us comming to your suitable place.)</p>
+                     </div> -->
+                     <select name="Mode" id="mode" onchange="courseAmount();">
+                     <option selected disabled value="">Choose...</option>
+                     <option value="Onsite">Onsite</option>
+                     <option value="Virtual">Virtual</option>
+                     <option value="Private">Private</option>
+                     </select>
+                  </div>
+                  <div class="field">Amount: <input type="text" id="amount" disabled class="amount" name="Amount"><strike>N</strike></input></div>
+                  <div class="field">Duration: <input type="text" id="duration" disabled class="amount" name="Duration"></input></div>
                   <div class="field btns">
                     <button class="prev-3 prev">Previous</button>
-                    <button class="submit" type="submit">Submit</button>
+                    <button type="submit" name="Register">Submit</button>
                   </div>
                </div>
             </form>
          </div>
+         <!-- </center> -->
       </div>
       <script src="../assets/js/script.js"></script>
-   </body>
+       <!-- Scripts -->
+       <!-- <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/owl-carousel.js"></script>
+        <script src="../assets/js/animation.js"></script>
+        <script src="../assets/js/imagesloaded.js"></script>
+        <script src="../assets/js/custom.js"></script> -->
+
+ 
+      <script src="../assets/js/control.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
 </html>

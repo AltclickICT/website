@@ -99,14 +99,24 @@
 
     <p>Our classes are ideal for individuals with programming experience, computer science enthusiasts, and those aspiring to become software engineers.</p>
 
+    <h2><strong> What You Will Learn </strong></h2>
+
+    <ul style="list-style-type: none;">
+        <li><p>Full Stack Web and Mobile Development</p></li>
+        <li><p> Github and Git tools </p></li>
+    </ul>
+
+    <h2><strong>Duration:</strong></h2> 
+    <p>4 months + 2 Months Internship</p>
+
     <h2><strong>Join Us Today!</strong></h2>
 
     <h2><strong>Prices</strong></h2>
 
     <ul style="list-style-type: none;">
-        <li><p>Onsite Classes: </p></li>
-        <li><p>Remote Classes: </p></li>
-        <li><p>Private Lessons: </p></li>
+        <li><p>Onsite Classes: ₦350,000  </p></li>
+        <li><p>Remote Classes: ₦300,000 </p></li>
+        <li><p>Private Lessons: ₦450,000 </p></li>
     </ul>
                     <!-- <p> We do Software Development, Installation, And Maintenance, Hardware Development Network Installation Computer Information And Internet courses, Communication Technology (ICT) courses</p> -->
                     <a href="/AltClick/view/form.php">  <button class="btn btn-primary" style="margin-top: 20px; height: 100px; width: 300px;" ><h2 style="color: white;">Register Now</h2></button></a>                </div>
