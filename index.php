@@ -43,43 +43,212 @@
     <!--New Style-->
     <link href="assets/css/new.css" rel="stylesheet">
 
+
+       <!-- Custom CSS for the hamburger menu -->
+       <!-- Custom CSS for the hamburger menu -->
+       <style>
+        .mobile-menu-toggle {
+            /* display: none; */
+        }
+
+        .btnwrap {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: block;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+
+            .btnwrap {
+                display: none;
+            }
+        }
+
+       
+
+
+
+
+
+
+
+        .p-menu1 {
+            height: 100%;
+        }
+
+        .hamburger1 {
+            height: 45px;
+            margin: 10px;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            justify-items: center;
+            z-index: 120;
+            cursor: pointer;
+        }
+
+        .hamburger1 div {
+            background-color: rgb(61, 61, 61);
+            position: relative;
+            width: 40px;
+            height: 5px;
+            margin-top: 7px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        #toggle1 {
+            display: none;
+        }
+
+        #toggle1:checked + .hamburger1 .top {
+            transform: rotate(-45deg);
+            margin-top: 22.5px;
+        }
+
+        #toggle1:checked + .hamburger1 .meat {
+            opacity: 0;
+        }
+
+        #toggle1:checked + .hamburger1 .bottom {
+            transform: rotate(-135deg);
+            margin-top: -18px;
+        }
+
+        #toggle1:checked ~ .menu1 {
+            height: auto;
+            /* overflow: visible; */
+        }
+
+        .menu1:focus-within {
+        height: 0;
+        overflow: hidden;
+        }
+
+        .menu1 {
+            width: 100%;
+            background-color: #02173F;
+            margin: 0;
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            padding: 0;
+            list-style: none;
+            clear: both;
+            text-align: center;
+            height: 0;
+            overflow: hidden;
+            transition: height .4s ease;
+            z-index: 120;
+            cursor: pointer;
+        }
+
+        .menu1 a {
+            width: 100%;
+            margin: 0;
+            padding: 10px 0;
+            font: 700 20px 'Oswald', sans-serif;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+
+        .menu1 a:first-child {
+            margin-top: 10px;
+        }
+
+        .menu1 a:last-child {
+            margin-bottom: 10px;
+        }
+
+        .link1:hover {
+            background-color: #fff;
+            color: rgb(61, 61, 61);
+            transition: all 0.3s ease;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ======= Hamburger Menu ======= -->
+  <!-- <div class="mobile-menu-toggle" id="mobileNavToggle">
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div> -->
+
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top" data-scrollto-offset="0">
+
+
+
+
+       <!-- Hamburger Menu (visible on small screens) -->
+       <div class="mobile-menu-toggle" id="mobileNavToggle">
+        <label class="hamburger1" for="toggle1">
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+        </label>
+    </div>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <input id="toggle1" type="checkbox" />
+    <nav class="menu1">
+    <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+    <li><a class="nav-link scrollto" href="index.php#about" id="aboutLink">About</a></li>
+    <li><a class="nav-link scrollto" href="index.php#services" id="servicesLink">Services</a></li>
+    <li><a class="nav-link scrollto" href="index.php#team" id="teamLink">Team</a></li>
+    <li><a class="nav-link scrollto" href="index.php#contact" id="contactLink">Contact</a></li>
+    <li><a href="view/form.php"><button class="btn-getstarted" style="border-width: 0px; margin-left: 10%" id="getStartedButton">Get Started</button></a></li>
+    <li> <a href="./view/order.php"> <button class="btn-getstarted" style="border-width: 0px; background-color: green; margin-left: 5px; margin-left: 10%" id="placeOrderButton"  style="background-color: green">Place Order</button> </a></li> 
+    </nav>
+
+
+
         <div class="container-fluid d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/favicon.png" alt=""> -->
+            <a href="" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
                 <h1>Altclick<span>.</span></h1>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-
-                    <!-- <i class="bi bi-chevron-down dropdown-indicator"></i> -->
                     <li><a class="nav-link scrollto" href="index.html">Home</a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
                     <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
                     <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+                    <li><a href="view/form.php"><button class="btn-getstarted" style="border-width: 0px;" id="getStartedButton">Get Started</button></a></li>
+               
+               <li> <a href="./view/order.php"> <button class="btn-getstarted" style="border-width: 0px; background-color: green; margin-left: 5px" id="placeOrderButton"  style="background-color: green">Place Order</button> </a></li>
+            
                 </ul>
-                <!-- <i class="bi bi-list mobile-nav-toggle d-none"></i> -->
             </nav>
-            <!-- .navbar -->
-
-            <div >
-                <button class="btn-getstarted" style="border-width: 0px;" id="getStartedButton" data-src="view/form.php">Get Started</button>
-                <button class="btn-getstarted" style="border-width: 0px; background-color: green;" id="placeOrderButton" data-src="./view/order.php" style="background-color: green">Place Order</button>
-            <!-- <a class="btn-getstarted" href="view/form.php">Get Started</a>
-
-            <a class="btn-getstarted" style="background-color: green" href="./view/order.php">Place Order</a> --> 
-
-        </div>
-
         </div>
     </header>
     <!-- End Header -->
@@ -122,74 +291,13 @@
                     </p>
                     <div class="d-flex">
                         <a href="view/form.php" class="btn-get-started scrollto">Get Started</a>
-                        <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+                        
                     </div>
                 </div>
             </div>
         </div>
     </center>
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200" id="team"></div>
-    <section id="team" class="testimonials">
-        <div class="container" data-aos="fade-up">
-            <center>
-                <div class="testimonials-slider swiper">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="testimonial-img" alt="">
-                                <h2>We are <span>Altclick</span></h2>
-                                <p>
-                                    We are Altclick ICT World Limited <br> ...Making the Difference
-                                </p>
-                                <div class="d-flex"> -->
-    <!-- <a href="view/form.php" class="btn-get-started scrollto">Get Started</a> -->
-    <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-    <!-- </div>
-                            </div>
-                        </div> -->
-    <!-- End Team item -->
-
-    <!-- Start Team Item-->
-    <!-- <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="testimonial-img" alt="">
-                                <h2>We Build Cutting Edge Tech <span>Solutions For Business Processes</span></h2>
-                                <p>
-                                    With technology, we aim at solving complex business <br> problems with innovation, creativity, and strategy.
-                                </p>
-                                <div class="d-flex">
-                                    <a href="view/form.php" class="btn-get-started scrollto">Get Started</a> -->
-    <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-    <!-- </div>
-                            </div>
-                        </div> -->
-    <!-- End Team item -->
-
-    <!-- Start Team Item-->
-    <!-- <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="testimonial-img" alt="">
-                                <h2>Enterprise<span>Software Development</span></h2>
-                                <p>
-                                    Enterprise-wide integration, security and scalability.
-                                    <br> We follow a step-by-step software development procedures alongside with security in mind.
-                                </p>
-                                <div class="d-flex">
-                                    <a href="view/form.php" class="btn-get-started scrollto">Get Started</a> -->
-    <!-- <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-    <!-- </div>
-                            </div>
-                        </div> -->
-    <!-- End Team item -->
-    <!-- </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </center>
-        </div>
-    </section> -->
-    <!-- End Testimonials Section -->
+   
 
     <!-- End Here... -->
     <main id="main">
@@ -289,53 +397,7 @@
 
             </div>
         </section>
-        <!-- ======= Featured courses Section ======= -->
-        <!-- <section id="featured-courses" class="featured-courses">
-            <div class="container">
-
-                <div class="row gy-4">
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-activity icon"></i></div>
-                            <h4><a href="" class="stretched-link">Vision Oriented</a></h4>
-                            <p>Tech visionaries from corners and all over Nigeria with wide minds.</p>
-                        </div>
-                    </div> -->
-        <!-- End Service Item -->
-
-        <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                            <h4><a href="" class="stretched-link">Tech Community</a></h4>
-                            <p>Together, forming a strong, coordinated community with a single vision.</p>
-                        </div>
-                    </div> -->
-        <!-- End Service Item -->
-
-        <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                            <h4><a href="" class="stretched-link">Tech Solutions</a></h4>
-                            <p>Digital solutions! To bridge the gap of technology in Nigeria</p>
-                        </div>
-                    </div> -->
-        <!-- End Service Item -->
-
-        <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                            <h4><a href="" class="stretched-link">To the World</a></h4>
-                            <p>From Abuja, Nigeria. To the World, making it a better place to be, technologically.</p>
-                        </div>
-                    </div> -->
-        <!-- End Service Item -->
-
-        <!-- </div>
-
-            </div>
-        </section> -->
-        <!-- End Featured courses Section -->
+      
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
@@ -375,12 +437,12 @@
                                 <ul class="list">
                                     <li class="list-item">
                                         <a class="active" href="./view/teachingServices.php">
-                                            <h5><span class="list-text">Development/Teaching</span></h5>
+                                            <h5><span class="list-text">Courses</span></h5>
                                         </a>
                                     </li>
                                     <li class="list-item">
                                         <a href="./view/multimedia.php">
-                                            <h5 style="margin-left: 10px;"><span class="list-text">Multimedia</span></h5>
+                                            <h5 style=""><span class="list-text">Multimedia</span></h5>
                                         </a>
                                     </li>
                                     <li class="list-item">
@@ -390,12 +452,12 @@
                                     </li>
                                     <li class="list-item">
                                         <a href="./view/hardware.php">
-                                            <h5 style="margin-left: 10px;"> <span class="list-text">Hardware</span> </h5>
+                                            <h5 style=""> <span class="list-text">Hardware</span> </h5>
                                         </a>
                                     </li>
                                     <li class="list-item">
                                         <a href="./view/consultation.php">
-                                            <h5 style="margin-left: 10px;"> <span class="list-text">Consultation</span> </h5>
+                                            <h5 style=""> <span class="list-text">Consultation</span> </h5>
                                         </a>
                                     </li>
                                 </ul>
@@ -569,21 +631,7 @@
 
                                     <!-- End testimonial item -->
 
-                                    <!-- <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                      <h3>Bill Gates</h3>
-                      <h4>Co-founder of Microsoft</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div> -->
+                                   
                                     <!-- End testimonial item -->
 
                                 </div>
@@ -720,9 +768,7 @@
                                 </form>
                             </div>
 
-                            <!-- <div class="col-10">
-            <h6 class="d-inline">Email :<br> <span class="text-muted">adewuyigoodness1@gmail.com</span></h6>
-          </div> -->
+           
                             <!-- End Contact Form -->
 
                         </div>
@@ -731,9 +777,6 @@
                 </section>
                 <!-- End Contact Section -->
 
-                <!-- <div id="contact" class="contact">
-      <img src="assets/img/idle-image.jpg" alt="Company Flier" class="pic001">
-    </div> -->
 
     </main>
     <!-- End #main -->
@@ -784,14 +827,7 @@
                         </ul>
                     </div>
 
-                    <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div> -->
+                
 
                 </div>
             </div>
@@ -846,21 +882,55 @@
 
     <!--New Script-->
     <script src="assets/js/new.js"></script>
+
+
+      <!-- Custom JavaScript for the hamburger menu -->
+      <!-- <script>
+        document.getElementById("mobileNavToggle").addEventListener("click", function() {
+        var toggle = document.getElementById("toggle1");
+        toggle.checked = !toggle.checked;
+
+        // Check if the toggle was successful and log a message
+        if (toggle.checked) {
+            console.log("Mobile menu is open.");
+        } else {
+            console.log("Mobile menu is closed.");
+        }
+    });
+    </script> -->
+
+
     <script>
-        document.getElementById('getStartedButton').addEventListener('click', function() {
-          const src = this.getAttribute('data-src');
-          if (src) {
-            window.location.href = src;
-          }
-        });
-      
-        document.getElementById('placeOrderButton').addEventListener('click', function() {
-          const src = this.getAttribute('data-src');
-          if (src) {
-            window.location.href = src;
-          }
-        });
-      </script>
+    // Get references to the menu items
+    const aboutLink = document.getElementById("aboutLink");
+    const servicesLink = document.getElementById("servicesLink");
+    const teamLink = document.getElementById("teamLink");
+    const contactLink = document.getElementById("contactLink");
+
+    // Get a reference to the toggle checkbox
+    const toggleCheckbox = document.getElementById("toggle1");
+
+    // Add click event listeners to the menu items
+    aboutLink.addEventListener("click", () => {
+        // Uncheck the toggle checkbox to hide the menu
+        toggleCheckbox.checked = false;
+    });
+
+    servicesLink.addEventListener("click", () => {
+        toggleCheckbox.checked = false;
+    });
+
+    teamLink.addEventListener("click", () => {
+        toggleCheckbox.checked = false;
+    });
+
+    contactLink.addEventListener("click", () => {
+        toggleCheckbox.checked = false;
+    });
+</script>
+
+
+   
       
 
 </body>
