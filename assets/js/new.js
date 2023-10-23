@@ -67,3 +67,33 @@ const defaultActiveItem = document.querySelector('.list-item a.active');
 if (defaultActiveItem) {
     defaultActiveItem.querySelector('.list-text').style.color = 'rgb(50, 121, 252)';
 }
+
+
+// Get references to the menu items
+const aboutLink = document.getElementById("aboutLink");
+const servicesLink = document.getElementById("servicesLink");
+const teamLink = document.getElementById("teamLink");
+const contactLink = document.getElementById("contactLink");
+
+// Get a reference to the toggle checkbox
+const toggleCheckbox = document.getElementById("toggle1");
+
+// Add click event listeners to the menu items
+aboutLink.addEventListener("click", () => {
+    // Uncheck the toggle checkbox to hide the menu
+    toggleCheckbox.checked = false;
+});
+
+servicesLink.addEventListener("click", () => {
+    toggleCheckbox.checked = false;
+});
+
+teamLink.addEventListener("click", () => {
+    toggleCheckbox.checked = false;
+});
+
+contactLink.addEventListener("click", () => {
+    toggleCheckbox.checked = false;
+});
+
+

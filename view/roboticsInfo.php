@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Print Order Form</title>
+    <title>Robotics Classes</title>
     <meta content="Official Website of AltClick ICT World, Abuja" name="description">
     <meta content="AltClick ICT World" name="keywords">
 
@@ -43,22 +43,6 @@
   <!--New Style-->
   <link href="./../assets/css/new.css" rel="stylesheet">
 
-
-  <style>
-    /* Styling for the drag-and-drop area */
-   #fileUploadDropArea {
-        border: 2px dashed #5670A0;
-        padding: 20px;
-        text-align: center;
-        color: #5670A0;
-        cursor: pointer;
-        /*background-color: red;*/
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-</style>
-
-
 </head>
 
 <body>
@@ -78,7 +62,6 @@
 
                     <!-- <i class="bi bi-chevron-down dropdown-indicator"></i> -->
                     <li><a class="nav-link scrollto" href="./../index.html">Home</a></li>
-                    
                 </ul>
                 <!-- <i class="bi bi-list mobile-nav-toggle d-none"></i> -->
             </nav>
@@ -104,91 +87,37 @@
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about" style="margin-top: 100px;">
-            
+            <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
                     
-                    <h2>Tell Us What You Want</h2>
-                    <form action="payment.html" method="post" enctype="multipart/form-data">
-                         <!-- Print Type -->
-                         <label for="toPrint" style="color: #5670A0;">What Are You Printing:</label>
-                         <select id="toPrint" style="color: #3279FC; border: 1px solid #5670A0;" name="toPrint">
-                             <option></option>
-                             <option value="file" style="color: #3279FC;">File</option>
-                             <option value="flyer" style="color: #3279FC;">Flyer</option>
-                             <option value="books" style="color: #3279FC;">Books</option>
-                             <!-- <option value="magazine" style="color: #3279FC;">Magazine</option>
-                             <option value="journal" style="color: #3279FC;">Journal</option> -->
-                         </select>
-                         <br><br>
-                        <!-- Print Type -->
-                        <label for="printType" style="color: #5670A0;">Print Type:</label>
-                        <select id="printType" style="color: #3279FC; border: 1px solid #5670A0;;" name="printType">
-                            <option></option>
-                            <option value="colored" style="color: #3279FC;">Colored Printing</option>
-                            <option value="blackWhite" style="color: #3279FC;">Black and White</option>
-                        </select>
-                        <br><br>
-                
-                        <!-- Paper Type -->
-                        <label for="paperType" style="color: #5670A0;">Paper Size:</label>
-                        <select id="paperType" style="color: #3279FC; border: 1px solid #5670A0;" name="paperType">
-                            <option></option>
-                            <option value="a2" style="color: #3279FC;">A2</option>
-                            <option value="a3" style="color: #3279FC;">A3</option>
-                            <option value="a4" style="color: #3279FC;">A4</option>
-                            <option value="other" style="color: #3279FC;">Other</option>
-                        </select>
-                        <br><br>
-                
-                        <!-- Flyer Size -->
-                        <label for="flyerSize" style="color: #5670A0;">Flyer Size:</label>
-                        <select id="flyerSize" style="color: #3279FC; border: 1px solid #5670A0;" name="flyerSize">
-                            <option></option>
-                            <option value="small" style="color: #3279FC;">Small (A6)</option>
-                            <option value="medium" style="color: #3279FC;">Medium (A5)</option>
-                            <option value="large" style="color: #3279FC;">Large (A4)</option>
-                            <option value="custom" style="color: #3279FC;">Custom</option>
-                        </select>
-                        <br><br>
+                    <h2><strong>Embark on a Futuristic Journey with Robotics</strong></h2>
 
+    <p>Join our robotics classes and step into the realm of innovation, automation, and cutting-edge technology.</p>
 
-                        <label for="noOfCopies" style="color: #5670A0;">No. of Copies</label>
-                        <input type="number" id="noOfCopies" name="deliveryAddress" placeholder=" " style="color: #3279FC; border: 1px solid #3279FC;" value="1">
-                        <br><br>
-                
-                        <!-- Description -->
-                        <label for="description" style="color: #5670A0;">Description:</label><br>
-                        <textarea id="description" name="description" rows="4" cols="50" style="color: #3279FC; border: 1px solid #5670A0;"></textarea>
-                        <br><br>
-                
-                        <!-- Upload File -->
-                        <div id="fileUploadDropArea">
-                            <label for="fileUpload" style="color: #5670A0;">Drag & Drop or Click to Upload File:</label>
-                            <input type="file" id="fileUpload" name="fileUpload" style="display: none;">
-                        </div>
-                        <p id="selectedFileName"></p>
-                        <br><br>
-                
-                        <!-- Delivery Address -->
-                        <label for="deliveryAddress" style="color: #5670A0;">Delivery Address:</label>
-                        <input type="text" id="deliveryAddress" name="deliveryAddress" placeholder="Enter your address" style="color: #3279FC; border: 1px solid #3279FC;">
-                        <br><br>
+    <h2><strong> Why Choose Our Robotics Classes </strong></h2>
+    <p>Our brilliant instructors will lead you through an exhilarating curriculum, immersing you in the world of intelligent machines, autonomous systems, and mind-boggling robotics projects.</p>
+    <h2><strong>Who Can Benefit?</strong></h2>
 
+    <p>Our classes are the perfect playground for tech enthusiasts, future inventors, and anyone who dreams of designing and building robots that can change the world.</p>
 
-                         <!-- Total Price -->
-                        <p>Total Price: <span id="totalPrice">₦0.00</span></p>
-                
-                        <!-- Payment Button -->
-                        <input type="submit" value="Proceed to Payment" style="color: #fff; background-color: #5670A0; border: none;">
-                    </form>
-                
-                    
+    <h2><strong>Join Us Today!</strong></h2>
+
+    <h2><strong>Prices</strong></h2>
+
+    <ul style="list-style-type: none;">
+        <li><p>Onsite Classes: </p></li>
+        <li><p>Remote Classes: </p></li>
+        <li><p>Private Lessons: </p></li>
+    </ul>
+                    <!-- <p> We do Software Development, Installation, And Maintenance, Hardware Development Network Installation Computer Information And Internet courses, Communication Technology (ICT) courses</p> -->
+                    <a href="/AltClick/view/form.php">  <button class="btn btn-primary" style="margin-top: 20px; height: 100px; width: 300px;" ><h2 style="color: white;">Register Now</h2></button></a>                </div>
+
                 <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
 
 
 
-                 
+
                     <!-- ======= Courses Section ======= -->
                     
                     <!-- End Services Section -->
@@ -328,135 +257,6 @@
 
       <!--New Script-->
   <script src="./../assets/js/new.js"></script>
-
-  <script>
-    // JavaScript for handling file drag and drop
-    const fileUploadInput = document.getElementById('fileUpload');
-    const fileUploadDropArea = document.getElementById('fileUploadDropArea');
-    const selectedFileName = document.getElementById('selectedFileName'); // Added this line
-
-    fileUploadDropArea.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        fileUploadDropArea.style.backgroundColor = '#f0f0f0'; // Change the background color on dragover
-    });
-
-    fileUploadDropArea.addEventListener('dragleave', () => {
-        fileUploadDropArea.style.backgroundColor = ''; // Reset background color on dragleave
-    });
-
-    fileUploadDropArea.addEventListener('drop', (e) => {
-        e.preventDefault();
-        fileUploadDropArea.style.backgroundColor = ''; // Reset background color on drop
-
-        const files = e.dataTransfer.files;
-        if (files.length > 0) {
-            fileUploadInput.files = files;
-            updateSelectedFileName(); // Call the function to update the selected file name
-        }
-    });
-
-    // Clicking the label will trigger the file input
-    fileUploadDropArea.addEventListener('click', () => {
-        fileUploadInput.click();
-    });
-
-    // Add an event listener for the file input change event
-    fileUploadInput.addEventListener('change', () => {
-        updateSelectedFileName();
-    });
-
-    // Function to update the selected file name
-    function updateSelectedFileName() {
-        const fileName = fileUploadInput.files[0] ? fileUploadInput.files[0].name : 'No file selected';
-        selectedFileName.textContent = "Selected File: " + fileName;
-    }
-
-    // Initial update of the selected file name (if a file is pre-selected)
-    updateSelectedFileName();
-
-
-
-
-//total price calculation
-function updateTotalPrice() {
-    const printTypeSelect = document.getElementById("printType");
-    const paperTypeSelect = document.getElementById("paperType");
-    const flyerSizeSelect = document.getElementById("flyerSize");
-    const toPrintSelect = document.getElementById("toPrint");
-    const noOfCopiesInput = document.getElementById("noOfCopies");
-
-    const prices = {
-        printType: {
-            colored: 120,         // Prices for different print types
-            blackWhite: 70,
-        },
-        paperType: {
-            a2: 100,              // Prices for different paper types
-            a3: 50,
-            a4: 30,
-            other: 200
-        },
-        flyerSize: {
-            small: 100,        // Prices for different flyer sizes
-            medium: 150,
-            large: 200,
-            custom: 250
-        },
-        toPrint: {
-            file: 0,
-            flyer: 0,
-            books: 0,
-            magazine: 0,
-            journal: 0,
-        }
-    };
-
-    const selectedPrintType = printTypeSelect.value;
-    const selectedPaperType = paperTypeSelect.value;
-    const selectedFlyerSize = flyerSizeSelect.value;
-    const selectedToPrint = toPrintSelect.value;
-    const noOfCopies = parseFloat(noOfCopiesInput.value) || 0;
-
-     // Validate if noOfCopies is negative and set it to 0 if negative
-     if (noOfCopies < 1) {
-        noOfCopiesInput.value = "1";
-    }
-
-    const printTypePrice = prices.printType[selectedPrintType] || 0;
-    const paperTypePrice = prices.paperType[selectedPaperType] || 0;
-    const flyerSizePrice = prices.flyerSize[selectedFlyerSize] || 0;
-    const toPrintPrice = prices.toPrint[selectedToPrint] || 0;
-
-    const totalPrice = (printTypePrice + paperTypePrice + flyerSizePrice + toPrintPrice) * noOfCopies;
-
-    document.getElementById("totalPrice").textContent = `₦${totalPrice.toFixed(2)}`;
-}
-
-window.addEventListener("DOMContentLoaded", () => {
-    const formElements = [
-        "printType",
-        "paperType",
-        "flyerSize",
-        "toPrint",
-        "noOfCopies"
-    ];
-
-    formElements.forEach((elementId) => {
-        const element = document.getElementById(elementId);
-        element.addEventListener("change", updateTotalPrice);
-    });
-
-    // Initialize total price
-    updateTotalPrice();
-});
-
-
-
-
-</script>
-
-    
-
 
 </body>
 
