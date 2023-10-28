@@ -45,7 +45,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #8cd2fa">
 
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top" data-scrollto-offset="0">
@@ -95,16 +95,16 @@
                     <ul style="list-style-type: none; text-align: left; ">
                         <li>
                             <hr style="width: 10px; height: 3px; background-color: blue; display: inline-block; margin-right: 10px; vertical-align: middle;">
-                            <a href="./../view/designandprinting.php"><p style="display: inline;">Print  Files, Books, Journals, Flyers and Magazines</p></a>
+                            <a href="./../view/designandprinting.php"><p style="display: inline; color:red">Print  Files, Books, Journals, Flyers and Magazines</p></a>
                         </li>
                         <li>
                             <hr style="width: 10px; height: 3px; background-color: blue; display: inline-block; margin-right: 10px; vertical-align: middle;">
-                            <a href="./../view/shirtbrandingandprinting.php"><p style="display: inline;">Shirt Branding And Printing</p></a>
+                            <a href="./../view/shirtbrandingandprinting.php"><p style="display: inline; color:red">Shirt Branding And Printing</p></a>
                         </li>
                         
                         <li>
                             <hr style="width: 10px; height: 3px; background-color: blue; display: inline-block; margin-right: 10px; vertical-align: middle;">
-                        <a href="#link1"><p style="display: inline;">Website Design, Upgrade (Add new Fatures like Automated Payment 
+                        <a href="#link1"><p style="display: inline; color:red">Website Design, Upgrade (Add new Fatures like Automated Payment 
                             Systems And Online Result Checking For Schools)</p></a>
                         </li>
                         

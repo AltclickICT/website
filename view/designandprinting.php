@@ -61,7 +61,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #8cd2fa">
 
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top" data-scrollto-offset="0">

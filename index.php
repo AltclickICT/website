@@ -172,7 +172,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #8cd2fa">
 
 
 
@@ -219,13 +219,13 @@
     <!-- Mobile Menu (hidden by default) -->
     <input id="toggle1" type="checkbox" />
     <nav class="menu1">
-    <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-    <li><a class="nav-link scrollto" href="index.php#about" id="aboutLink">About</a></li>
-    <li><a class="nav-link scrollto" href="index.php#services" id="servicesLink">Services</a></li>
-    <li><a class="nav-link scrollto" href="index.php#team" id="teamLink">Team</a></li>
-    <li><a class="nav-link scrollto" href="index.php#contact" id="contactLink">Contact</a></li>
+    <li><a style="color: red" class="nav-link scrollto" href="index.php">Home</a></li>
+    <li><a style="color: blue" class="nav-link scrollto" href="index.php#about" id="aboutLink">About</a></li>
+    <li><a style="color: red" class="nav-link scrollto" href="index.php#services" id="servicesLink">Services</a></li>
+    <li><a style="color: blue" class="nav-link scrollto" href="index.php#team" id="teamLink">Team</a></li>
+    <li><a style="color: red" class="nav-link scrollto" href="index.php#contact" id="contactLink">Contact</a></li>
     <li><a href="view/form.php"><button class="btn-getstarted" style="border-width: 0px; margin-left: 10%" id="getStartedButton">Get Started</button></a></li>
-    <li> <a href="./view/order.php"> <button class="btn-getstarted" style="border-width: 0px; background-color: green; margin-left: 5px; margin-left: 10%" id="placeOrderButton"  style="background-color: green">Place Order</button> </a></li> 
+    <li> <a href="./view/order.php"> <button class="btn-getstarted" style="border-width: 0px; background-color: red; margin-left: 5px; margin-left: 10%" id="placeOrderButton" >Place Order</button> </a></li> 
     </nav>
 
 
@@ -233,19 +233,19 @@
         <div class="container-fluid d-flex align-items-center justify-content-between">
 
             <a href="" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-                <h1>Altclick<span>.</span></h1>
+                <h1 style="color: blue">Altclick<span>.</span></h1>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+                    <li><a style="color: red" class="nav-link scrollto" href="index.php">Home</a></li>
+                    <li><a style="color: blue" class="nav-link scrollto" href="index.html#about">About</a></li>
+                    <li><a style="color: red" class="nav-link scrollto" href="index.html#services">Services</a></li>
+                    <li><a style="color: blue" class="nav-link scrollto" href="index.html#team">Team</a></li>
+                    <li><a style="color: red" class="nav-link scrollto" href="index.html#contact">Contact</a></li>
                     <li><a href="view/form.php"><button class="btn-getstarted" style="border-width: 0px;" id="getStartedButton">Get Started</button></a></li>
                
-               <li> <a href="./view/order.php"> <button class="btn-getstarted" style="border-width: 0px; background-color: green; margin-left: 5px" id="placeOrderButton"  style="background-color: green">Place Order</button> </a></li>
+               <li> <a href="./view/order.php"> <button class="btn-getstarted" style="border-width: 0px; background-color: red; margin-left: 5px" id="placeOrderButton" >Place Order</button> </a></li>
             
                 </ul>
             </nav>
@@ -304,7 +304,7 @@
         <!-- ======= Featured courses Section ======= -->
         <section id="featured-courses" class="featured-courses" style="text-align:justify">
             <div class="container">
-                <h5><b>We Follow <i>A-Step-By-Step</i> Approach To Achieve Projects</b></h5>
+                <h5 style="color:red"><b>We Follow <i>A-Step-By-Step</i> Approach To Achieve Projects</b></h5>
 
                 <div class="row gy-6">
 
@@ -312,11 +312,11 @@
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
-                                    <h1><strong>1</strong></h1>
-                                    <h4><a href="" class="stretched-link">Discovery</a></h4>
+                                    <h1 style="color:blue"><strong>1</strong></h1>
+                                    <h4 ><a style="color:red" href="" class="stretched-link">Discovery</a></h4>
                                 </center>
                             </div>
-                            <We>We provide the best software services to actualize your ideas, concepts or goals regardless of complexities. Do you need to build bespoke software or hire developers? We discuss your requirements with you and visualize helpful
+                            <p style="color:blue">We provide the best software services to actualize your ideas, concepts or goals regardless of complexities. Do you need to build bespoke software or hire developers? We discuss your requirements with you and visualize helpful
                                 custom software solutions to meet your needs. We enable andd maintain flexibilty from when you hire us to where your products are deployed.</p>
                         </div>
                     </div>
@@ -326,11 +326,11 @@
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
-                                    <h1><strong>2</strong></h1>
-                                    <h4><a href="" class="stretched-link">Design</a></h4>
+                                    <h1 style="color:blue"><strong>2</strong></h1>
+                                    <h4 style="color:red"><a style="color:red" href="" class="stretched-link">Design</a></h4>
                                 </center>
                             </div>
-                            <p>With a viable project scope, we assemble exceptional designers and developers who execute our solutions perfectly. As an agency, we pride ourselves on customer satisfaction, so we maitain unhindered communication with you throughout
+                            <p style="color:blue">With a viable project scope, we assemble exceptional designers and developers who execute our solutions perfectly. As an agency, we pride ourselves on customer satisfaction, so we maitain unhindered communication with you throughout
                                 our planning and execution process to ensure our developers implement all your requirements into the project architecture.
                             </p>
                         </div>
@@ -341,11 +341,11 @@
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
-                                    <h1><strong>3</strong></h1>
-                                    <h4><a href="" class="stretched-link">Development</a></h4>
+                                    <h1 style="color:blue"><strong>3</strong></h1>
+                                    <h4 style="color:red"><a style="color:red" href="" class="stretched-link">Development</a></h4>
                                 </center>
                             </div>
-                            <p>It's time to bring your project to life now that we have your design. Using agile methodology, our developers break down your product into manageable and measurable chunks called sprints and work on them in a time and priority-based
+                            <p style="color:blue">It's time to bring your project to life now that we have your design. Using agile methodology, our developers break down your product into manageable and measurable chunks called sprints and work on them in a time and priority-based
                                 order to deliver measurable and quality results. By utilising CI/CD practices, we will ensure your applications are always updated without downtime.</p>
                         </div>
                     </div>
@@ -355,11 +355,11 @@
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
-                                    <h1><strong>4</strong></h1>
-                                    <h4><a href="" class="stretched-link">Testing</a></h4>
+                                    <h1 style="color:blue"><strong>4</strong></h1>
+                                    <h4 style="color:red"><a style="color:red" href="" class="stretched-link">Testing</a></h4>
                                 </center>
                             </div>
-                            <p>We test during project development to verify the functionality and performance of your product before release. We typically approach this with two methods: Unit Testing, where we test individual units of source code, such as
+                            <p style="color:blue">We test during project development to verify the functionality and performance of your product before release. We typically approach this with two methods: Unit Testing, where we test individual units of source code, such as
                                 functions, classes and procedures, to determine if they perform as intended by developers. Acceptance Testing, where we verify that a product meets the requirements specified in the acceptance criteria. We collaborate with
                                 the customer or an independent test team to do this. It determines if the system is suitable for use.</p>
                         </div>
@@ -369,11 +369,11 @@
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
-                                    <h1><strong>5</strong></h1>
-                                    <h4><a href="" class="stretched-link">Deployment</a></h4>
+                                    <h1 style="color:blue"><strong>5</strong></h1>
+                                    <h4 style="color:red"><a style="color:red" href="" class="stretched-link">Deployment</a></h4>
                                 </center>
                             </div>
-                            <p>Deployment is automated, which means that new features of your product are readily available. After each feature passes the testing phase and meets all sprint goals, the developers integrate it for final testing. The outcome
+                            <p style="color:blue">Deployment is automated, which means that new features of your product are readily available. After each feature passes the testing phase and meets all sprint goals, the developers integrate it for final testing. The outcome
                                 is then fully deployed and made available to customers. It kickstarts the developer's software maintenance phase.</p>
                         </div>
                     </div>
@@ -382,11 +382,11 @@
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <center>
-                                    <h1><strong>6</strong></h1>
-                                    <h4><a href="" class="stretched-link">Maintenance</a></h4>
+                                    <h1 style="color:blue"><strong>6</strong></h1>
+                                    <h4 style="color:red"><a style="color:red" href="" class="stretched-link">Maintenance</a></h4>
                                 </center>
                             </div>
-                            <p>Part of our services to you is the maintenance and management of your database, data warehouses and applications. Our developers ensure the maintenance of your product's functionality by dealing with bugs and faults and implementing
+                            <p style="color:blue">Part of our services to you is the maintenance and management of your database, data warehouses and applications. Our developers ensure the maintenance of your product's functionality by dealing with bugs and faults and implementing
                                 new features or ideas. Other maintenance tasks include project rescue and modernisation.</p>
                         </div>
                     </div>
@@ -404,11 +404,12 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>About Us</h2>
-                    <p>AltClick ICT World is a software development company based in Abuja, Nigeria. We provide a range of software solutions and services such as web and mobile application development, software testing, IT consulting, product design and
+                    <h2 style="color:red">About Us</h2>
+                    <p style="color: blue">AltClick ICT World is a software development company based in Abuja, Nigeria. We provide a range of software solutions and services such as web and mobile application development, software testing, IT consulting, product design and
                         development, hardware systems installation, and software development training.</p>
                     <!-- <p> We do Software Development, Installation, And Maintenance, Hardware Development Network Installation Computer Information And Internet courses, Communication Technology (ICT) courses</p> -->
                     <button class="btn btn-primary">Read More..</button>
+                    
                 </div>
 
                 <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
@@ -428,8 +429,8 @@
                             <div class="container" data-aos="fade-up">
 
                                 <div class="section-header">
-                                    <h2>Our Services</h2>
-                                    <p>We provide tech Services in the following Areas.</p>
+                                    <h2 style="color:blue">Our Services</h2>
+                                    <p style="color:red">We provide tech Services in the following Areas.</p>
                                 </div>
 
 
@@ -782,10 +783,10 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer" >
         <center></center>
 
-        <div class="footer-content">
+        <div class="footer-content" style="background-color:blue">
             <div class="container">
                 <div class="row">
 
@@ -833,7 +834,7 @@
             </div>
         </div>
 
-        <div class="footer-legal text-center">
+        <div class="footer-legal text-center"style="background-color:red" >
             <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
                 <div class="d-flex flex-column align-items-center align-items-lg-start">
